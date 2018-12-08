@@ -1,1 +1,1 @@
-web: java -jar target/tgbot.jar
+web: java -Dserver.port=$PORT -jar target/*.jar
