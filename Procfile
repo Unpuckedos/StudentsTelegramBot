@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/*.jar
+worker: java -jar target/*.jar
